@@ -23,17 +23,16 @@ VALUES
 -- EMPLOYEES --
 INSERT INTO employee (firstname, lastname, role_id, manager_id) 
 VALUES 
-("Mae", "Campbell",1,100);
+('Mae', 'Campbell',1,100);
 INSERT INTO employee (firstname, lastname, role_id, manager_id) 
 VALUES 
-("Danna", "Gaveston",2,200);
+('Danna', 'Gaveston',2,200);
 INSERT INTO employee (firstname, lastname, role_id, manager_id) 
 VALUES 
-("Olive", "Patterson",3,300);
+('Olive', 'Patterson',3,300);
 INSERT INTO employee (firstname, lastname, role_id, manager_id) 
 VALUES 
-("Katherine", "McKenzie",4,400);
-
+('Katherine', 'McKenzie',4,400);
 -- SELECTING FOR CREATING 
 --TABLES IN OUR SQL WORKBENCH 
 SELECT * FROM department;
