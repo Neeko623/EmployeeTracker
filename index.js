@@ -118,7 +118,7 @@ function addEmployee() {
                     message: "What is the employee's manager's ID? "
                 },
                 {
-                    name: 'role', 
+                    name: 'employeerole', 
                     type: 'list',
                     choices: function() {
                     var roleArray = [];
@@ -138,7 +138,7 @@ function addEmployee() {
                         }                  
                     }  
                     connection.query(
-                    'INSERT INTO employee SET ?',
+                    'INSERT INTO employeerole SET ?',
                     {
                         firstname: answer.firstname,
                         lastname: answer.lastname,
@@ -236,6 +236,5 @@ function addRole() {
 function exitApp() {
     connection.end();
 };
-
 
 StartTracker();

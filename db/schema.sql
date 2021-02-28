@@ -1,6 +1,6 @@
-DROP DATABASE IF EXISTS employeeDB;
-CREATE DATABASE employeeDB;
-USE employeeDB;
+DROP DATABASE IF EXISTS employee-tracker;
+CREATE DATABASE employee-tracker;
+USE employee-tracker;
 
 -- Create the table for department
 CREATE TABLE department (
