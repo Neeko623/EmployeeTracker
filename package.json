@@ -1,0 +1,30 @@
+{
+  "name": "employeetracker",
+  "version": "1.0.0",
+  "description": "a command-line application to manage a company's employee database, using Node.js, Inquirer, and MySQL.",
+  "main": "index.js",
+  "dependencies": {
+    "console.table": "^0.10.0",
+    "inquirer": "^8.0.0",
+    "mysql2": "^2.2.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Neeko623/EmployeeTracker.git"
+  },
+  "keywords": [
+    "EMPLOYEE",
+    "TRACKER"
+  ],
+  "author": "HUI SHAN TANG",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Neeko623/EmployeeTracker/issues"
+  },
+  "homepage": "https://github.com/Neeko623/EmployeeTracker#readme"
+}
