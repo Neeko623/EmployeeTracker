@@ -26,7 +26,7 @@ function StartTracker() {
         .prompt({
             name: 'choice',
             type: 'list',
-            message: 'Welcome to the Employee Tracker app! Please select the following options!',
+            message: 'Welcome to the Employee Tracker app! Please select the following options!',  
             choices: [
                     'View all employees',
                     'View all departments',
@@ -118,7 +118,7 @@ function addEmployee() {
                     message: "What is the employee's manager's ID? "
                 },
                 {
-                    name: 'employeerole', 
+                    name: 'role', 
                     type: 'list',
                     choices: function() {
                     var roleArray = [];
@@ -153,7 +153,6 @@ function addEmployee() {
                 })
         })
 };
-
 // add a department to the database
 function addDepartment() {
     inquirer
